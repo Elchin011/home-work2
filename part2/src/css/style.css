@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* .left,
+.right {
+  width: 49%;
+  display: inline-block;
+}
+
+.left {
+  margin: 0 auto;
+}
+
+.right {
+  height: 100vh;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+} */
+
+.forms {
+  width: 700px;
+  border: 1px solid #ccc;
+  margin: 100px auto;
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: "Poppins", serif;
+}
+.forms h2 {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Poppins", serif;
+}
+
+.form-groups {
+  margin-bottom: 20px;
+}
+.form-groups label {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.form-groups input,
+.form-groups select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+  outline: none;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 12px;
+  color: #ccc;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form-groups .form-validation {
+  color: #ccc;
+  margin: 4px 0;
+}
+
+form .submit_btn {
+  padding: 16px 0;
+  border-radius: 8px;
+  border: 1px solid #284a5e;
+  background: #27485d;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+  color: #fff;
+  font-family: "Space Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  width: 100%;
+  transition: 0.4s ease-in-out;
+}
+form .submit_btn:hover {
+  background-color: white;
+  border: 1px solid #27485d;
+  color: #27485d;
+}
+form .submit_btn:disabled {
+  background-color: #ccc;
+  color: black;
+  border: none;
+  cursor: not-allowed;
+}
+.already-login {
+  text-align: center;
+}
+.already-login a {
+  color: red;
+}
+
+/* .is_married_label {
+  display: block;
+}
+.is_married_label input {
+  width: 50px;
+  display: inline-block;
+} */
+
+.form-groups input[type="radio"] {
+  width: 80px;
+  display: inline-block;
+}
+
+#form_el {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.form-element {
+  margin-bottom: 12px;
+}
+.form-element input {
+  width: 100%;
+  padding: 14px 12px;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}

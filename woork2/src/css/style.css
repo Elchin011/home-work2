@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: black;  
+}
+.card{
+    height: 400px;
+    width: 300px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.279);
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+}
+.card h1{
+     padding-top: 20px;
+
+}  
+.card h2{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.card i{
+    font-size: 60px;
+    color: white;
+   
+}
+.card p{
+    padding-top: 20px;
+     font-size: 35px;
+
+}
+.name1{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgb(171, 111, 0);
+    position: absolute;
+    top: 450px;
+    left: 425px;
+    
+}
+.name2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 242, 1);
+    position: absolute;
+    top: 110px;
+    left: 780px;
+
+}
+.footer{
+    display: flex;
+   padding-left: 90px;
+   padding-top: 50px;
+  
+}
+.footer .hero {    
+    width: 50%;  
+    padding-right: 60px; 
+    border-right: 1px solid black;
+
+}
+.footer .banner{
+    width: 50%;
+    padding-right: 110px;
+}
+ .banner p{
+    font-size: 15px;
+ }
+
+.hero p{
+    font-size: 15px;
+}

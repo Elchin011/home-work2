@@ -1,0 +1,54 @@
+
+#divs{
+background-color: aqua;
+}
+    
+#vego,#cego{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+#zero,#mero,#gero{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 100px;
+
+
+   
+   
+}
+#zero img,#mero img,#gero img{
+    width: 100%;
+}
+button{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#zero button{
+    background-color: rgb(73, 207, 255);
+}
+#mero button{
+    background-color: rgb(254, 218, 151);
+}
+#gero button{
+    background-color: rgb(255, 106, 106);
+}
+
+
+
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="../src/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="forms">
+          <div>
+            <h2>Let’s get you started</h2>
+            <form>
+              <div class="form-groups">
+                <label for="name">Full name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ade Tiger"
+                />
+              </div>
+              <div class="form-groups">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Marvn@gmail.com"
+                />
+              </div>
+              <div class="form-groups">
+                <label for="phone">Phone number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="+234 123 456 7890"
+                />
+              </div>
+              <div class="form-groups">
+                <label for="Password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="*********"
+                />
+                <p class="form-validation">
+                  Password must contain a minimum of 8 characters
+                </p>
+                <p class="form-validation">
+                  Password must contain at least one symbol e.g. @, !
+                </p>
+              </div>
+              <div class="form-groups">
+                <label for="Location">Location</label>
+                <select name="location" id="location">
+                  <option value="az">Azerbaijan</option>
+                  <option value="en">England</option>
+                  <option value="ru">Russian</option>
+                  <option value="tr">Turkey</option>
+                </select>
+              </div>
+              <div class="form-groups">
+                <label for="Location">Is Married ?</label>
+                <label class="is_married_label" for="married">
+                  <input type="radio" name="married" id="married" value="yes" />
+                  Yes
+                </label>
+                <label class="is_married_label" for="married">
+                  <input type="radio" name="married" id="married" value="yes" />
+                  No
+                </label>
+              </div>
+              <button type="submit" class="submit_btn">Sign Up</button>
+
+              <p class="already-login">
+                Already a user? <a href="./index.html">Login</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="new_form">
+        <form id="form_el">
+          <div class="form-element">
+            <input type="text" placeholder="entet the name" />
+          </div>
+          <div class="form-element">
+            <input type="email" placeholder="entet the email" />
+          </div>
+          <div class="form-element">
+            <input type="password" placeholder="entet the password" />
+          </div>
+          <button class="submit_btn">login</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
